@@ -4,10 +4,12 @@ try:
 
     print("덧셈 결과:", num1 + num2)
     print("뺄셈 결과:", num1 - num2)
-    print("덧셈 결과:", num1 * num2)
+    print("곱셈 결과:", num1 * num2)
 
     if num2==0:
         print("0으로 나눌수 없습니다.")
+        else:
+    print("나눗셈 결과:", num1 / num2)
 
 except ValueError:
     print("유효한 숫자를 입력하세요.")      
